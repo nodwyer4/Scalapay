@@ -1,0 +1,20 @@
+---
+name: ReviewAssignment
+description: Reviews the assignment ensuring it meets the given requirements in Assignment.md
+---
+
+# ReviewAssignment
+
+## Instructions
+
+Review the entire repository ensuring the code matches Assignment.md
+- Ensure that adequite testing has been completed
+- No TODO's have been left over
+- All steps are complete and meet the requirements
+- Ignore the mysql requirement, I'm using postgres for local testing
+ and I'm using env to manage both
+- Ignore the CurlCommands.md file, I'm waiting on an email back
+ confirming that swagger will do
+- Ignore messaging that says integers must be positive but allowing 0, that's fine
+- Ignore the sqlite3 package in the package.json, we support multiple db 
+types based on the config provided to env vars
